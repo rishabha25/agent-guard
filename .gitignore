@@ -257,6 +257,7 @@ frontend/.vite/
 frontend/.vscode/
 ### VSCode settings
 .vscode/settings.json
+.vscode/launch.json
 
 ### pytest-html report
 assets/style.css
@@ -265,4 +266,3 @@ report.html
 ### test_files
 
 tests/test_files
-/agents

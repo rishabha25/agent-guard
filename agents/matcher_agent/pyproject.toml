@@ -1,0 +1,11 @@
+[project]
+name = "matcher-agent"
+version = "0.1.0"
+description = "Analyzes a patients medical record and history to provide a match score between 0-1 with a given trial criteria"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "genai-protocol>=1.0.9",
+    "python-dotenv>=1.1.0",
+    "groq>=0.30.0",
+]
